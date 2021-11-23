@@ -5,14 +5,19 @@ display: flex;
 justify-content: center;
 }
 
+.info .container{
+
+justify-content: center;
+}
+
 .header_menu {
     margin-bottom: 25px;
 }
 
 .menu_list{
-display: flex;
-align-items: center;
-}
+    display: flex;
+    align-items: center;
+    }
 
 .menu_item {
     margin-right: 31px;
@@ -30,8 +35,8 @@ align-items: center;
 
 
 .preview {
-    padding: 130px 70px;
-    background: url(./img/photo.png) center center;
+    padding: 130px 0px;
+    background: url("./img/photo.png") center center;
 }
 
 .preview_title {
@@ -42,7 +47,7 @@ align-items: center;
     line-height: 98px;
     text-align: center;
     
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .preview_button {
@@ -55,18 +60,16 @@ align-items: center;
 }
 
 .info {
-    background: #E5E5E5;
+    background: #125b7c;
 }
 
 .info_text {
-position: absolute;
-width: 726px;
-height: 265px;
+max-width: 726px;
 font-family: Open Sans;
 font-size: 36px;
 line-height: 49px;
 text-align: center;
-
-color: #FFFFFF;
+margin: 0 auto;
+color:#ffffff;
 }
 
