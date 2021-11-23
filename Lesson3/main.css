@@ -1,0 +1,72 @@
+
+
+.header .container {
+display: flex;
+justify-content: center;
+}
+
+.header_menu {
+    margin-bottom: 25px;
+}
+
+.menu_list{
+display: flex;
+align-items: center;
+}
+
+.menu_item {
+    margin-right: 31px;
+}
+.menu_item:last-child {
+    margin-right: 0;
+}
+.menu_link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+
+
+.preview {
+    padding: 130px 70px;
+    background: url(./img/photo.png) center center;
+}
+
+.preview_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.preview_button {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #162C38;
+}
+
+.info {
+    background: #E5E5E5;
+}
+
+.info_text {
+position: absolute;
+width: 726px;
+height: 265px;
+font-family: Open Sans;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
