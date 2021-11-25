@@ -1,0 +1,128 @@
+.container{
+    max-width: 420px;
+    margin: 40px auto;
+    /* border: 5px solid brown; */
+    /* width: 50%; */
+    /* height: 500px; */
+    /* top: 20px; */
+    /* left: 100px; */
+    position: relative;
+}
+
+/* .item{ */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* background: #BFDEFB; */
+    /* border-radius: 50%; */
+    /* position: absolute; */
+    /* right: 50px; */
+    /* bottom: 20px; */
+/* } */
+
+.input-holder, input{
+    width: 100%;
+}
+
+.input-holder{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.input{
+    padding: 36px 0 11px 34px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Open Sans;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    color: black;
+}
+
+
+.label{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+}
+
+
+.button{
+    background-color: #5C98AB;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 0;
+    border: none;
+    font-weight: bold;
+}
+
+
+.header{
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    color: black;
+}
+
+
+.text_header::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: -150px;
+    background: #BFDEFB;
+}
+
+
+.text_header::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    right: -150px;
+    background: #BFDEFB;
+}
+
+
+.info{
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    color: black; 
+}
+
+
+.text_info::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -50px;
+    top: 50px;
+    background: #5C98AB;
+    border-radius: 50%;
+}
+
+.text_info::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #BFDEFB;
+    border-radius: 50%;
+    right: -50px;
+    bottom: 20px;
+}
+
+
